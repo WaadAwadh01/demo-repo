@@ -1,0 +1,12 @@
+name: Hello World Workflow
+
+   on:
+  
+  push:
+       branches:
+         - main
+         say-hello:
+       runs-on: ubuntu-latest
+
+       name: Print Hello World
+         run: echo "Hello World!"
